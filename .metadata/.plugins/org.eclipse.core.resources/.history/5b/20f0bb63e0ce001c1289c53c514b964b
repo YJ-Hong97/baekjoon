@@ -1,0 +1,12 @@
+package week1;
+
+import java.io.BufferedReader;
+
+public class 그룹단어체커1316 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BufferedReader br = new BufferedReader(null)
+	}
+
+}
