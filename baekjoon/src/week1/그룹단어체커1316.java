@@ -20,32 +20,18 @@ public class 그룹단어체커1316 {
 
 	private static boolean check(String str) {
 		for(int i = 0; i<str.length(); i++) {
-			char c = str.charAt(i);
-			System.out.println(c);
-			if(i==0) {
-				if(str.charAt(i+1)==c) {
-					
-				}
-				else {
-					return false;
-				}
-			}
-			else if(i==str.length()-1) {
-				if(str.charAt(i-1)==c) {
-				}
-				else {
-					return false;
-				}
-			}else {
-				if(str.charAt(i+1)==c||str.charAt(i-1)==c) {
-				}
-				else {
-					return false;
+			for(int j = i+1; j<str.length(); j++) {
+				if(str.charAt(i)==str.charAt(j)) {
+					if(str.charAt(j)==str.charAt(j-1)) {
+						
+					}
+					else {
+						return false;
+					}
 				}
 			}
 		}
 		return true;
-		
 	}
 
 }
