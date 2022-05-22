@@ -15,7 +15,7 @@ public class ÀÌÃµÄ¥³ג1924 {
 		for(int i = 1; i<x+1;i++) {
 			int date = 31;
 			if(i == 2) date = 28;
-			if(i==4||i==6||i==9||i==11) date = 30;
+			else if(i==4||i==6||i==9||i==11) date = 30;
 			
 			
 			for(int j = 1; j<date+1; j++) {

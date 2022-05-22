@@ -23,7 +23,7 @@ public class 평균은넘겠지4344 {
 					count ++;
 				}
 			}
-			double ratio = (double)((double)count/arr.length)*100;
+			double ratio = ((double)count/arr.length)*100;
 			DecimalFormat df = new DecimalFormat("0.000");
 			System.out.println(df.format(ratio)+"%");
 		}

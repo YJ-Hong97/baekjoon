@@ -17,7 +17,7 @@ public class ЦђБе1546 {
 		int max = arr[arr.length-1];
 		double sum = 0;
 		for(int i = 0; i<arr.length; i++) {
-			sum += (double)((double)arr[i]/max)*100;
+			sum +=((double)arr[i]/max)*100;
 			
 		}
 		System.out.println(sum/n);
