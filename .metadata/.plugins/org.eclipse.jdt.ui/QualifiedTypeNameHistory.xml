@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.source.tree.WhileLoopTree"/>
-    <fullyQualifiedTypeName name="sun.jvm.hotspot.utilities.IntArray"/>
-    <fullyQualifiedTypeName name="jdk.vm.ci.meta.Assumptions.ConcreteSubtype"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.IntInsnNode"/>
@@ -33,7 +29,6 @@
     <fullyQualifiedTypeName name="org.graalvm.compiler.core.common.FieldIntrospection"/>
     <fullyQualifiedTypeName name="jdk.internal.jshell.tool.resources.l10n"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.shared.Space"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.InputStreamReader"/>
@@ -43,21 +38,26 @@
     <fullyQualifiedTypeName name="javax.print.CancelablePrintJob"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.replacements.nodes.ObjectClone"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.StaticDeoptimizingNode"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.awt.print.Printable"/>
-    <fullyQualifiedTypeName name="org.graalvm.compiler.phases.common.LoopSafepointInsertionPhase"/>
     <fullyQualifiedTypeName name="java.lang.annotation.Repeatable"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.lir.amd64.AMD64BinaryConsumer.DataOp"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction"/>
     <fullyQualifiedTypeName name="java.lang.Number"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.function.IntPredicate"/>
     <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.phases.common.LoopSafepointInsertionPhase"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.lir.LIRInstruction.Temp"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.hotspot.HotSpotForeignCallLinkageImpl"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
