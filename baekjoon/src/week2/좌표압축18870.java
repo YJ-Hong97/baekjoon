@@ -3,9 +3,9 @@ package week2;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.util.ArrayList;
 
-public class Main {
+public class ÁÂÇ¥¾ÐÃà18870{
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
@@ -13,14 +13,26 @@ public class Main {
 		StringBuilder sb = new StringBuilder();
 		int n = Integer.parseInt(br.readLine());
 		String[] arr = br.readLine().split(" ");
-		String[] arr2 = arr.clone();
-		
-		int[] counts = new int[n];
-		int count = 0;
-		Arrays.sort(arr2);
+		int[] nums = new int[n];
 		for(int i = 0; i<arr.length; i++) {
-			for(int j= 0; j<arr.length; j++) {
-				if(arr[i].equals(arr2[j])) {
+			nums[i] = Integer.parseInt(arr[i]);
+		}
+		ArrayList<Integer> alist = new ArrayList<>();
+		for(int i = 0; i<nums.length; i++) {
+			alist.add(nums[i]);
+		}
+		alist.sort((a,b)->a-b);
+		for(int i =0; i<alist.size()-1; i++) {
+			if(alist.get(i).equals(alist.get(i+1))) {
+				alist.remove(i);
+				i--;
+			}
+		}
+		int[] counts = new int[n];
+	
+		for(int i = 0; i<n; i++) {
+			for(int j= 0; j<alist.size(); j++) {
+				if(nums[i]!=alist.get(j)) {
 					counts[i] = j;
 					break;
 				}
