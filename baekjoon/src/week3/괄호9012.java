@@ -1,10 +1,10 @@
-package week2;
+package week3;
 
-public class 스택수열1872 {
+public class 괄호9012 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
